@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+   @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../public/assets/fonts/gilroy-bold-cufonfonts/Gilroy-Bold.ttf');
+      font-style: normal;
+      font-weight: normal;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('../public/assets/fonts/gilroy-bold-cufonfonts/Gilroy-Heavy.ttf');
+      font-style: normal;
+      font-weight: normal;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../public/assets/fonts/gilroy-bold-cufonfonts/Gilroy-Light.ttf');
+      font-style: normal;
+      font-weight: normal;
   }
-}
+
+  @font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../public/assets/fonts/gilroy-bold-cufonfonts/Gilroy-Medium.ttf');
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../public/assets/fonts/gilroy-bold-cufonfonts/Gilroy-Regular.ttf');
+      font-style: normal;
+      font-weight: normal;
+  }
+  
+  body {
+    font-family: 'Gilroy-Bold', 'Gilroy-Medium', 'Gilroy-SemiBold';
+    -webkit-font-smoothing: antialiased;
+    margin: 0 !important;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
