@@ -1,0 +1,44 @@
+.navbar {
+    padding: 10px 0 !important;
+}
+
+.navbar-section {
+    background-color: white;
+}
+
+.home-logo {
+    width: 60px;
+}
+
+.navbar-brand {
+    padding: 0px, 0px !important;
+}
+
+.navbar-toggler {
+    width: 47px;
+    border: none;
+}
+
+.navbar-toggler .line {
+    float: left;
+    width: 100%;
+    height: 2px;
+    background-color: #E21D00;
+    margin-bottom: 5px;
+}
+
+.blue-btn-nav {
+    background: #56CCF2;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 10px 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.blue-btn-nav:hover {
+    color: white;
+}

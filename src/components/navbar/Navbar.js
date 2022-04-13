@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-import { FiChevronDown } from "react-icons/fi";
-import Logo from "../../images/salerubyLogo.png";
-import RubyHR from "../../images/IconHR.png";
-import RubyAcademy from "../../images/IconAcad.png";
+import ChevronDown from "../../images/arrow-down.svg";
+import Logo from "../../images/mollo.png";
+import MolloWallet from "../../images/mollo-wallet.svg";
+import MolloFinance from "../../images/mollo-finance.svg";
+import MolloCard from "../../images/mollo-card.svg";
 
 const Navbar = () => {
-
     return (
             <section className="nav-section">
                 <div className="">
@@ -24,15 +24,15 @@ const Navbar = () => {
                         <div id="navbarNavDropdown" className="navbar-collapse collapse">
                             <ul className="navbar-nav mx-auto">
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">Platform <FiChevronDown /></Link>
+                                <NavLink className="nav-link" to="/" data-toggle="dropdown">Platform <ChevronDown /></NavLink>
                                 <div className="dropdown-menu">
                                     <Link to="/about" className="dropdown-item">
-                                        <img src={RubyHR} alt="nav-icon" className="nav-icon" />
+                                        <img src={MolloWallet} alt="nav-icon" className="nav-icon" /> {" "}
                                             Ruby HR
                                         <p>Sequentia helps scale the capabilities of your <br/>team from prospecting to deal closure.</p>
                                     </Link>
                                     <Link to="/contact" className="dropdown-item">
-                                        <img src={RubyAcademy} alt="nav-icon" className="nav-icon" />
+                                        <img src={MolloFinance} alt="nav-icon" className="nav-icon" />{" "}
                                             Ruby Academy
                                         <p>Sequentia helps scale the capabilities of your <br/>team from prospecting to deal closure.</p>
                                     </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
                                 </div>  
                             </li><br />
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">About Us <FiChevronDown /></Link>
+                                <Link className="nav-link" to="/" data-toggle="dropdown">About Us <ChevronDown /></Link>
                                 <div className="dropdown-menu">
                                     <Link to="/about" className="dropdown-item">Who We Are</Link>
                                     <Link to="/contact" className="dropdown-item">Contact Us</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
                                 </div>
                             </li><br />
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">Resources <FiChevronDown /></Link>
+                                <Link className="nav-link" to="/" data-toggle="dropdown">Resources <ChevronDown /></Link>
                                 <div className="dropdown-menu">
                                     <Link to="/" className="dropdown-item">eBooks</Link>
                                     <Link to="https://courses.salesruby.com/" className="dropdown-item">Ruby Courses</Link>
@@ -71,6 +71,7 @@ const Navbar = () => {
                     </nav> 
                 </div>
         </section>
+        // <div>Navbar</div>
     )
 }
 
