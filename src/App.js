@@ -1,12 +1,8 @@
-import React from 'react';
-import Routes from './Routes';
-import "./App.css";
+import React from 'react'
 
 const App = () => {
   return (
-    <div className='app'>
-      <Routes />
-    </div>
+    <div>Mollo Home</div>
   )
 }
 
