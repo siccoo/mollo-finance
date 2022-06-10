@@ -1,9 +1,22 @@
 import React from 'react';
-// import {Brand, Article, CTA} from "./components";
+import { Blog, Features, Footer, Header, Possibility, WhatMollo } from './containers';
+import { Brand, Navbar, CTA } from "./components";
 
 const App = () => {
   return (
-    <div>Mollo Home</div>
+    <div className='app'>
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatMollo />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
   )
 }
 
