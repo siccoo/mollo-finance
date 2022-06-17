@@ -16,32 +16,48 @@
   margin-right: 2rem;
 }
 
-.mollo__navbar-links__logo img{
-    width: 72.56px;
-    height: 16px;
+.mollo__navbar-links__logo img {
+  width: 72.56px;
+  height: 16px;
 }
 
 .mollo__navbar-links__container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .mollo__navbar-sign {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .mollo__navbar-links__container p,
 .mollo__navbar-sign p,
 .mollo__navbar-menu__container p {
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-    margin: 0 1rem;
-    cursor: pointer;
-    text-decoration: none;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mollo__navbar-sign button,
+.mollo__navbar-menu__container button {
+    padding: 0.2rem 1rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background: var(--color-btnBg);
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }
