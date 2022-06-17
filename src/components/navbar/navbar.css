@@ -48,7 +48,7 @@
 
 .mollo__navbar-sign button,
 .mollo__navbar-menu__container button {
-    padding: 0.2rem 1rem;
+  padding: 0.2rem 1rem;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -60,4 +60,10 @@
   border: 0;
   outline: none;
   cursor: pointer;
+}
+
+.mollo__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
 }
